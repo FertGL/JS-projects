@@ -13,3 +13,8 @@ if (typeof +result == "number") {
     console.log('Это не число')
 }
 
+//task 2
+const rubl = 83.9; 
+let dollar = prompt('Введите количество долларов: ');
+
+alert(`${+dollar} долларов = ${dollar * rubl} рублей`);
