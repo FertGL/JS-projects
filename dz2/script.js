@@ -4,7 +4,7 @@ let oper = prompt('Введите операцию');
 
 if (!isNaN(+num1) & !isNaN(+num2)) {
     if ((+num1 == 0 || +num2 == 0) & oper == "/") {
-        alert('Делить на 0 нельзя)')
+        alert('Делить на 0 нельзя)');
     } else {
         switch(oper) {
             case "*":
